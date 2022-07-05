@@ -190,7 +190,7 @@ result of call is: None
 > > ~~~ 
 > > {: .output}
 > >
-> > A function call always needs parenthesis, otherwise you get memory address of the function object. So, if we wanted to call the function named report, and give it the value 22.5 to report on, we could have our function call as follows
+> > A function call always needs parentheses, otherwise you get memory address of the function object. So, if we wanted to call the function named report, and give it the value 22.5 to report on, we would have to call our function as follows:
 > > ~~~
 > > print("calling")
 > > report(22.5)
@@ -349,7 +349,7 @@ result of call is: None
 > The code below will run on a label-printer for chicken eggs.  A digital scale will report a chicken egg mass (in grams) 
 > to the computer and then the computer will print a label.  
 >
-> Please re-write the code so that the if-block is folded into a function.
+> Please re-write the code so that the if-block is encapsulated in a function.
 >
 > ~~~
 > import random
