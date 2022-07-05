@@ -30,7 +30,7 @@ if mass > 3.0:
 
 mass = 2.07
 if mass > 3.0:
-    print (mass, 'is large')
+    print(mass, 'is large')
 ~~~
 {: .language-python}
 ~~~
@@ -373,9 +373,7 @@ final velocity: 30.0
 > > ~~~
 > > {: .language-python}
 > > It can be argued that an advantage of using this method would be to make the code more readable.
-> > However, a disadvantage is that this code is not efficient, as the `values` list is iterated three times:
-> > once in the `for` loop statement, then again when both the `min` and `max` functions are called.
-> > The most efficient method, while maintaining readability, would be to iterate the list only once:
+> > However, readability is in the eye of the beholder, so another reader may prefer this approach:
 > >
 > > ~~~
 > > values = [-2,1,65,78,-54,-24,100]
