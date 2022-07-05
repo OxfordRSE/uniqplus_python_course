@@ -42,7 +42,7 @@ After you have launched Terminal, type the command to start Python
 ~~~
 $ python
 ~~~
-{: .bash}
+{: .language-bash}
 
 ### Windows Users - Command Line
 To start Python you will need to access the Anaconda Prompt.
@@ -54,7 +54,7 @@ After you have launched the Anaconda Prompt, type the command:
 ~~~
 $ python
 ~~~
-{: .bash}
+{: .language-bash}
 
 ### GNU/Linux Users - Command Line
 
@@ -65,7 +65,7 @@ After you have launched the terminal emulator, type the command:
 ~~~
 $ python
 ~~~
-{: .bash}
+{: .language-bash}
 
 ###  Anaconda Navigator
 
@@ -97,6 +97,7 @@ end of this course.
 >>> 1 + 6
 7
 ~~~
+{: .language-python}
 
 ~~~
 >>> a = 2
@@ -104,17 +105,20 @@ end of this course.
 >>> a + b
 5
 ~~~
+{: .language-python}
 
 ~~~
 >>> print("Just printing this on the screen")
 Just printing this on the screen
 ~~~
+{: .language-python}
 
 ~~~
 >>> word = "Hello"
 >>> len(word)
 4
 ~~~
+{: .language-python}
 
 ~~~
 >>> for word in ["Leeds", "Munich", "Marseille"]:
@@ -125,6 +129,7 @@ City name has 5 letters in it.
 City name has 6 letters in it.
 City name has 9 letters in it.
 ~~~
+{: .language-python}
 
 ~~~
 >>> for word in ["London", 3, "Marseille"]:
@@ -135,6 +140,7 @@ Traceback (most recent call last):
   File "<stdin>", line 2, in <module>
 TypeError: object of type 'int' has no len()
 ~~~
+{: .language-python}
 
 ## Quitting
 
@@ -143,6 +149,7 @@ You can quit Python by typing
 ~~~
 >>> quit()
 ~~~
+{: .language-python}
 
 then ENTER.
 

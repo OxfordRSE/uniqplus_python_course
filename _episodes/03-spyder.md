@@ -35,18 +35,22 @@ the box below that corresponds to your situation.
 > `nano` is a bare-bones text editor that's available on most
 > GNU/Linux distributions and macOS.  `nano` runs inside a terminal emulator.
 > To create a new Python file with `nano`, start a terminal emulator ("Terminal" app on macOS) and
-> type 
-> ~~~
+> type:
+{: .callout}
+
+~~~
   nano myfile.py
-> ~~~
-> Usecul commands are described at the bottom of the terminal window. The symbol `^` means the control key. So `^X` means Control key + x key.
-{: .solution}
+~~~
+{: .language-bash}
+
+> Useful commands are described at the bottom of the terminal window. The symbol `^` means the Control key. So `^X` means hold the Control key and press the x key.
+{: .callout}
 
 
 > ## Writing text files with notepad on Windows
 >
 > Here's how to use notepad on windows
-{: .solution}
+{: .callout}
 
 > ## Text vs. Whatever
 >
@@ -71,7 +75,7 @@ print("Variable 'varint' is a", type(varint))
 varstr = "astring"
 print("Variable 'varfl' is a", type(varfl))
 ~~~
-{: .python}
+{: .language-python}
 
 Now let's execute this script. In the terminal (macOS/Linux) or the Anaconda prompt (Windows),
 type
@@ -82,7 +86,7 @@ hello world
 Variable 'varint' is a <class 'int'>
 Variable 'varstr' is a <class 'str'>
 ~~~
-{: .python}
+{: .language-python}
 
 Can you guess what happened? Python read the file, executing each line
 one after the other.  This is equivalent to typing the 5 lines in the
