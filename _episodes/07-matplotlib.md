@@ -28,7 +28,7 @@ matplotlib.pyplot.show()
 {: .language-python}
 
 ![Heat map representing the `data` variable. Each cell is colored by value along a color gradient
-from blue to yellow.](../fig/inflammation-01-imshow.svg)
+from blue to yellow.](../fig/inflammation-01-imshow.png)
 
 Blue pixels in this heat map represent low values, while yellow pixels represent high values.  As we
 can see, inflammation rises and falls over a 40-day period.  Let's take a look at the average
@@ -41,7 +41,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![A line graph showing the average inflammation across all patients over a 40-day period.](../fig/inflammation-01-average.svg)
+![A line graph showing the average inflammation across all patients over a 40-day period.](../fig/inflammation-01-average.png)
 
 Here, we have put the average inflammation per day across all patients in the variable
 `ave_inflammation`, then asked `matplotlib.pyplot` to create and display a line graph of those
@@ -54,7 +54,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![A line graph showing the maximum inflammation across all patients over a 40-day period.](../fig/inflammation-01-maximum.svg)
+![A line graph showing the maximum inflammation across all patients over a 40-day period.](../fig/inflammation-01-maximum.png)
 
 ~~~
 min_plot = matplotlib.pyplot.plot(numpy.min(data, axis=0))
@@ -62,7 +62,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![A line graph showing the minimum inflammation across all patients over a 40-day period.](../fig/inflammation-01-minimum.svg)
+![A line graph showing the minimum inflammation across all patients over a 40-day period.](../fig/inflammation-01-minimum.png)
 
 The maximum value rises and falls smoothly, while the minimum seems to be a step function.  Neither
 trend seems particularly likely, so either there's a mistake in our calculations or something is
@@ -110,7 +110,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Three line graphs showing the daily average, maximum and minimum inflammation over a 40-day period.](../fig/inflammation-01-group-plot.svg)
+![Three line graphs showing the daily average, maximum and minimum inflammation over a 40-day period.](../fig/inflammation-01-group-plot.png)
 
 The [call]({{ page.root }}/reference.html#function-call) to `loadtxt` reads our data,
 and the rest of the program tells the plotting library
@@ -230,7 +230,7 @@ formats, including SVG, PDF, and JPEG.
 > > ~~~
 > > {: .language-python}
 > ![Three line graphs, with step lines connecting the points, showing the daily average, maximum
- and minimum inflammation over a 40-day period.](../fig/inflammation-01-line-styles.svg)
+ and minimum inflammation over a 40-day period.](../fig/inflammation-01-line-styles.png)
 > {: .solution}
 {: .challenge}
 
